@@ -1,0 +1,34 @@
+.navBarMain{
+    display: flex;
+    justify-content: space-around;
+}
+.mainTitleBar{
+    display: flex;
+}
+.mainTitleBar button{
+    align-self: center;
+    font-size: 12px;
+    width: 64px;
+    border: none;
+    text-decoration: underline;
+    cursor: grab;
+    height: 32px;
+    background-color: transparent;
+    margin: 1%;
+    
+}
+.mainTitleBar h1{
+    width: 100%;
+}
+.mainUserBar{
+    display: flex;
+}
+.mainUserBar button{
+    cursor: grab;
+    text-decoration: underline;
+    font-size: 12px;
+    width: 64px;
+    border: none;
+    background-color: transparent;
+    margin: 1%;
+}
