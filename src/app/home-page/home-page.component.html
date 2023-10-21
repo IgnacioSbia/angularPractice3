@@ -2,7 +2,7 @@
     <div ngClass="mainTitleBar">
         <h1>Page Title</h1>
         <button>Home</button>
-        <button>About Us</button>
+        <button routerLink="aboutUs">About Us</button>
         <button>ToS</button>
     </div>
     <div ngClass="mainUserBar">
@@ -16,11 +16,12 @@
     <section ngClass="mainSection">
         <h2>Sub title</h2>
         <ul ngClass="articleList">
-            <li>
+            <li ngClass="article">
                 <h2>Article</h2>
                 <p>More info about the Article</p>
+
             </li>
-            <li>
+            <li ngClass="article">
                 <h2>Article</h2>
                 <p>More info about the Article</p>
             </li>
@@ -30,7 +31,7 @@
         <div>
             <h2>More info about our careers</h2>
         </div>
-        <div>
+        <div ngClass="careerPoints">
             <ul>
                 <li>
                     <h3>Point 1</h3>

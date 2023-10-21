@@ -45,3 +45,16 @@
 .articleList{
     list-style: none;
 }
+
+.article{
+    border-radius: 8%;
+    padding: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+}
+.careerPoints{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
