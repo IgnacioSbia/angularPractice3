@@ -10,9 +10,8 @@
         <button (click)="clickLogin()">Login</button>
     </div>
 </header>
-
-<main ngClass="homeMainPage">
-
+<app-log-in *ngIf='login'></app-log-in>
+<main ngClass="homeMainPage" >
     <section ngClass="mainSection">
         <h2>Sub title</h2>
         <ul ngClass="articleList">
