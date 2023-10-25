@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class LogInComponent {
 
+  userName:string  = '';
+  password:string = '' ;
+
+  logIn(){
+    try {
+      fetch
+    } catch (error) {
+      
+    }
+  
+  }
 }
