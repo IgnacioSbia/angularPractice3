@@ -7,12 +7,19 @@ import { Component } from '@angular/core';
 })
 export class HomePageComponent {
   login = false;
+  register = false;
   focusPage = 'focused';
   clickLogin(){
     if(!this.login){
     this.login = true;
     this.focusPage = 'notFocused';
   }
+  }
+  clickRegister(){
+    if(!this.register){
+      this.register = true;
+      this.focusPage = 'notFocused'
+    }
   }
 
 }

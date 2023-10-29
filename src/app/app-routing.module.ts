@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { TermsOfServiceComponent } from './terms-of-service/terms-of-service.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   {
@@ -15,7 +16,7 @@ const routes: Routes = [
  {
   component: HomePageComponent,
   path:''
-}
+},
 ];
 
 @NgModule({
