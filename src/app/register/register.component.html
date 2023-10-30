@@ -1,10 +1,10 @@
 <div ngClass="registerPop">
     <aside>
         <label>Mail</label>
-        <input type="text" (change)="onKey($event)"/>
+        <input type="text" (change)="onKeyMail($event)"/>
         <br/>
         <label>Password</label>
-        <input type="password"/>
+        <input type="password" (change)="onKeyPassword($event)"/>
     </aside>
     <button (click)="handleSubmit()">Submit</button>
 </div>
