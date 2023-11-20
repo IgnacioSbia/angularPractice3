@@ -1,48 +1,4 @@
-.navBarMain{
-    height: 100px;
-    background-color: rgba(173, 173, 173, 0.658);
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 1%;
-}
-.mainTitleBar{
-    align-items: center;
-    width: 35%;
-    display: flex;
-}
-.mainTitleBar button{
-    font-weight: bolder;
-    align-self: center;
-    font-size: 12px;
-    width: 64px;
-    color: white;
-    padding: 1%;
-    background-color: black;
-    border: 1px solid beige;
-    border-radius: 6px;
-    height: 40px;
-    margin: 1%;
-}
-.mainTitleBar button:hover{
-    border: 1px solid black;
-    background-color: white;
-    color: black;
-}
-.mainTitleBar h1{
-    width: 100%;
-}
-.mainUserBar{
-    display: flex;
-}
-.mainUserBar button{
-    cursor: grab;
-    text-decoration: underline;
-    font-size: 12px;
-    width: 64px;
-    border: none;
-    background-color: transparent;
-    margin: 1%;
-}
+
 .mainSection{
     display: flex;
     flex-direction: column;

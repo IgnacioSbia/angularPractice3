@@ -1,17 +1,4 @@
-<header ngClass="navBarMain">
-    <div ngClass="mainTitleBar">
-        <h1>News anon</h1>
-        <button>Home</button>
-        <button routerLink="aboutUs">About Us</button>
-        <button routerLink="TermsOfService">ToS</button>
-    </div>
-    <div ngClass="mainUserBar">
-        <button (click)="clickRegister()">Sign Up</button>
-        <button (click)="clickLogin()">Login</button>
-    </div>
-</header>
-<app-log-in *ngIf='login'></app-log-in>
-<app-register *ngIf='register'></app-register>
+<app-nav-bar></app-nav-bar>
 <main ngClass="homeMainPage" >
     <section ngClass="mainSection">
         <h2>Latest News</h2>
