@@ -9,8 +9,13 @@
 .homeMainPage{
     justify-content: space-around;
     display: flex;
+    
 }
 .articleList{
+    padding: 5%;
+    overflow: scroll;
+    width: 150%;
+    height: 70%;
     list-style: none;
 }
 
@@ -22,9 +27,12 @@
     border: 1px solid black;
 }
 .careerPoints{
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10%;
 }
 .mainInfo{
     padding: 0;
