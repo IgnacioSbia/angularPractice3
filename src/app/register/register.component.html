@@ -1,10 +1,17 @@
 <div ngClass="registerPop">
-    <aside>
-        <label>Mail</label>
-        <input type="text" (change)="onKeyMail($event)"/>
+    <button>X</button>
+    <aside ngClass="signUpInputs">
+        <div>
+            <label>Mail</label>
+            <br/>
+            <input type="text" (change)="onKeyMail($event)" placeholder="example@example.com"/>
+         </div>
         <br/>
-        <label>Password</label>
-        <input type="password" (change)="onKeyPassword($event)"/>
+        <div>
+            <label>Password</label>
+            <br/>
+            <input type="password" (change)="onKeyPassword($event)" placeholder="********"/>
+         </div>
     </aside>
-    <button (click)="handleSubmit()">Submit</button>
+    <button (click)="handleSubmit()" ngClass="signUpSubmitButton">Submit</button>
 </div>
